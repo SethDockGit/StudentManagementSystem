@@ -11,7 +11,9 @@ namespace StudentManagementSystem.Data
     {
 
         private string ConnectionString = 
-        "Server=localhost;Database=StudentManagement;User Id=sa;Password=L'audace1!";
+        "Server=localhost;Database=StudentManagement;User Id=**;Password=**";
+
+        //**Your User Id and Password here
 
 
         public void AddCourse(Course course)
